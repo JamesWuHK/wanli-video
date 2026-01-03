@@ -1,0 +1,390 @@
+project:
+  name: "文脉薪传：儒家五常的传承"
+  resolution: [1920, 1080]
+  fps: 30
+  voice: "zh-CN-YunxiNeural"  # 使用男声，更适合文化主题
+  bitrate: "12000k"  # 高品质输出
+
+# ===================================
+# 场景一：开篇·薪火相传
+# ===================================
+scenes:
+  - id: "scene_01_opening"
+    duration: 15
+    narration: "两千五百年前，孔子创立儒学。仁义礼智信，五常之道，如薪火相传，照亮中华文明的前行之路。"
+
+    # 分镜设计说明
+    storyboard:
+      shot_type: "推进镜头"
+      visual_elements:
+        - "古朴书院建筑，晨光透过木质窗棂"
+        - "老学者翻开泛黄的线装古籍《论语》"
+        - "镜头缓缓推进至书页上'仁义礼智信'五个大字"
+        - "五个字逐渐放大，呈现毛笔书法的笔触细节"
+
+      color_palette:
+        primary: "#2C1810"  # 古籍褐色
+        secondary: "#D4A574"  # 宣纸黄
+        accent: "#8B0000"  # 朱砂红
+
+      composition: "三分法构图，古籍占据中心，光线从左上方照入"
+      camera_movement: "缓慢推镜，焦距从全景到特写"
+      lighting: "柔和晨光，营造宁静氛围"
+
+    image_generation_prompt: >
+      A serene ancient Chinese academy at dawn, warm sunlight streaming through
+      traditional wooden lattice windows. An elderly scholar in traditional robes
+      opening a yellowed ancient book 'The Analects'. Camera slowly zooms into the
+      calligraphy characters '仁义礼智信' written in elegant Chinese brush style.
+      Cinematic lighting, ink wash painting aesthetic, warm sepia tones,
+      highly detailed, 8K quality.
+
+# ===================================
+# 场景二：仁·爱人之心
+# ===================================
+  - id: "scene_02_ren_intro"
+    duration: 12
+    narration: "仁，是爱人之心。子曰：'仁者爱人'。己欲立而立人，己欲达而达人。"
+
+    storyboard:
+      shot_type: "水墨动画转场"
+      visual_elements:
+        - "水墨晕染效果，'仁'字从虚到实浮现"
+        - "孔子与弟子围坐杏坛论道（水墨画风格）"
+        - "弟子神情专注，孔子手势优雅指点"
+        - "背景是竹林，微风吹动竹叶"
+
+      color_palette:
+        primary: "#1A1A1A"  # 墨色
+        secondary: "#EFEFEF"  # 宣纸白
+        accent: "#4A7C59"  # 竹林绿
+
+      animation_style: "水墨动画，笔触渐显效果"
+      composition: "中国传统绘画构图，留白艺术"
+
+    image_generation_prompt: >
+      Traditional Chinese ink wash painting style. Confucius and disciples sitting
+      in a circle under ancient trees, discussing philosophy. The character '仁'
+      (benevolence) appearing in elegant calligraphy. Bamboo forest in background,
+      gentle breeze effect. Monochromatic ink tones with touches of green,
+      minimalist composition, traditional Chinese painting aesthetic.
+
+  - id: "scene_02_ren_modern"
+    duration: 13
+    narration: "从古至今，这份悲天悯人的情怀，化作无数善举，温暖人间。"
+
+    storyboard:
+      shot_type: "蒙太奇快速剪辑"
+      visual_elements:
+        - "镜头1：志愿者扶助老人过马路（3秒）"
+        - "镜头2：医护人员全力救治病患（3秒）"
+        - "镜头3：社区邻里互助，共度佳节（3秒）"
+        - "镜头4：年轻人献血，关爱生命（4秒）"
+
+      transitions: "交叉溶解，温暖光效过渡"
+      color_grading: "暖色调，橙黄色温，增强温馨感"
+
+    image_generation_prompt: >
+      Warm heartwarming scenes montage: volunteers helping elderly cross street,
+      medical workers treating patients with care, neighbors sharing meals during
+      festivals, young people donating blood. Warm orange color grading,
+      golden hour lighting, emotional, documentary photography style,
+      Chinese people, modern urban setting.
+
+# ===================================
+# 场景三：义·正道而行
+# ===================================
+  - id: "scene_03_yi_history"
+    duration: 12
+    narration: "义，是正道而行。孟子曰：'生亦我所欲，义亦我所欲，二者不可得兼，舍生而取义者也。'"
+
+    storyboard:
+      shot_type: "历史画卷展开动画"
+      visual_elements:
+        - "'义'字以金色书法呈现，笔画刚劲有力"
+        - "孟子形象端坐讲学，神态坚毅"
+        - "历史场景闪现：文天祥正气凛然"
+        - "岳飞背刺'精忠报国'的剪影"
+
+      color_palette:
+        primary: "#8B6914"  # 古铜金
+        secondary: "#DC143C"  # 中国红
+        accent: "#000000"  # 深黑
+
+      visual_style: "历史纪录片风格+动态国画"
+
+    image_generation_prompt: >
+      Heroic historical Chinese painting style. The character '义' (righteousness)
+      in powerful golden calligraphy. Mencius teaching with determined expression.
+      Historical heroes like Wen Tianxiang and Yue Fei appearing in noble poses.
+      Epic cinematic lighting, bronze and crimson color scheme,
+      dynamic composition, traditional Chinese historical painting aesthetic.
+
+  - id: "scene_03_yi_modern"
+    duration: 13
+    narration: "千年来，中国人以义为准则，择善而从。"
+
+    storyboard:
+      shot_type: "多机位切换"
+      visual_elements:
+        - "法官公正判案，敲响法槌的瞬间"
+        - "警察维护秩序，保护群众安全"
+        - "市民见义勇为，帮助遇险者"
+        - "律师为弱者辩护的坚定眼神"
+
+      cinematography: "纪实摄影风格，强烈明暗对比"
+      color_grading: "冷暖对比，突出正义主题"
+
+    image_generation_prompt: >
+      Modern scenes of justice and righteousness: judge striking gavel in courtroom,
+      police officers protecting citizens, brave citizens helping people in danger,
+      lawyer defending the vulnerable with determined eyes. Documentary photography
+      style, dramatic lighting with strong contrast, Chinese contemporary setting,
+      cinematic composition, 8K quality.
+
+# ===================================
+# 场景四：礼·秩序之美
+# ===================================
+  - id: "scene_04_li_tradition"
+    duration: 12
+    narration: "礼，是秩序之美。'不学礼，无以立。'礼节规范行为，礼仪彰显尊重。"
+
+    storyboard:
+      shot_type: "对称构图展示"
+      visual_elements:
+        - "'礼'字以工整楷书呈现，对称美感"
+        - "古代祭祀典礼，仪式感庄重"
+        - "传统拱手作揖，礼节到位"
+        - "成人礼冠冕加身的神圣时刻"
+
+      color_palette:
+        primary: "#1C2841"  # 深蓝礼服色
+        secondary: "#DAA520"  # 礼器金色
+        accent: "#8B0000"  # 祭祀朱红
+
+      composition: "中轴对称，仪式感构图"
+
+    image_generation_prompt: >
+      Solemn traditional Chinese ceremony. The character '礼' (ritual/etiquette)
+      in perfect symmetrical calligraphy. Ancient ritual ceremony with people in
+      traditional formal robes, respectful bowing gestures, coming-of-age ceremony
+      with ceremonial crown. Symmetrical composition, deep blue and gold color scheme,
+      ceremonial lighting, dignified atmosphere, Chinese classical aesthetic.
+
+  - id: "scene_04_li_modern"
+    duration: 13
+    narration: "这是中华民族代代相传的文明密码。"
+
+    storyboard:
+      shot_type: "生活化场景捕捉"
+      visual_elements:
+        - "学生向老师鞠躬致敬"
+        - "家庭聚餐，晚辈为长辈敬茶"
+        - "公共场所文明礼让，排队有序"
+        - "传统婚礼，新人行礼的庄重"
+
+      style: "温馨纪实风格"
+      color_grading: "柔和暖色调"
+
+    image_generation_prompt: >
+      Warm everyday scenes of Chinese etiquette: students bowing respectfully to
+      teachers, family dinner with younger generation serving tea to elders,
+      orderly queuing in public places, traditional wedding ceremony with couple
+      performing rituals. Warm soft lighting, documentary style,
+      heartwarming atmosphere, Chinese modern life, natural colors.
+
+# ===================================
+# 场景五：智·求知不息
+# ===================================
+  - id: "scene_05_zhi_ancient"
+    duration: 12
+    narration: "智，是求知不息。'学而不思则罔，思而不学则殆。'"
+
+    storyboard:
+      shot_type: "时空穿梭蒙太奇"
+      visual_elements:
+        - "'智'字以灵动行书呈现，富有变化"
+        - "古代学子寒窗苦读，烛光摇曳"
+        - "四大发明展示：造纸术、印刷术、指南针、火药"
+        - "古籍经典翻动，知识的传承"
+
+      color_palette:
+        primary: "#2F4F4F"  # 墨绿学术色
+        secondary: "#FFD700"  # 智慧金光
+        accent: "#FF6347"  # 创新火红
+
+      lighting: "烛光到现代灯光的转变"
+
+    image_generation_prompt: >
+      Ancient Chinese scholars studying diligently by candlelight. The character '智'
+      (wisdom) in dynamic calligraphy. Showcase of Four Great Inventions: paper-making,
+      printing, compass, gunpowder. Ancient books and scrolls being read.
+      Dark academic atmosphere with golden candlelight, traditional Chinese study room,
+      intellectual aesthetic, detailed textures.
+
+  - id: "scene_05_zhi_modern"
+    duration: 13
+    narration: "从古代的智慧结晶，到今天的科技创新，中国人从未停止探索真理的脚步。"
+
+    storyboard:
+      shot_type: "科技感视觉特效"
+      visual_elements:
+        - "现代学生在图书馆专注学习"
+        - "科研人员做实验，数据可视化"
+        - "人工智能、量子计算机特写"
+        - "航天器发射，探索宇宙"
+
+      visual_effects: "数据流、粒子效果、科技线条"
+      color_grading: "冷色科技蓝，辅以暖色人文关怀"
+
+    image_generation_prompt: >
+      Modern Chinese innovation scenes: students studying in high-tech library,
+      scientists conducting experiments with data visualization, AI and quantum
+      computers close-up, spacecraft launch into space. Futuristic blue lighting,
+      digital effects with data streams and particles, blend of technology and
+      humanity, cinematic sci-fi aesthetic, 8K quality.
+
+# ===================================
+# 场景六：信·立身之本
+# ===================================
+  - id: "scene_06_xin_principle"
+    duration: 12
+    narration: "信，是立身之本。'人而无信，不知其可也。'"
+
+    storyboard:
+      shot_type: "信任主题视觉表达"
+      visual_elements:
+        - "'信'字以稳重隶书呈现，笔画扎实"
+        - "古代商人一诺千金的场景"
+        - "握手签约，信守承诺的象征"
+        - "诚信印章，红泥鲜明"
+
+      color_palette:
+        primary: "#654321"  # 大地棕色（踏实）
+        secondary: "#CD853F"  # 承诺金色
+        accent: "#DC143C"  # 印章红
+
+      symbolism: "诚信如磐石，坚不可摧"
+
+    image_generation_prompt: >
+      Trustworthiness theme in Chinese culture. The character '信' (trust/integrity)
+      in solid clerical script calligraphy. Ancient merchant keeping promise scene,
+      handshake symbolizing contract commitment, traditional red seal stamp.
+      Earthy brown and gold color palette, stable composition,
+      symbols of reliability and trust, Chinese cultural aesthetic.
+
+  - id: "scene_06_xin_modern"
+    duration: 13
+    narration: "诚实守信，一诺千金，这是中国人安身立命的根基，也是社会运行的基石。"
+
+    storyboard:
+      shot_type: "社会纪实镜头"
+      visual_elements:
+        - "企业家诚信签约的庄重仪式"
+        - "店铺诚信经营，童叟无欺"
+        - "信用体系，数字化诚信社会"
+        - "人与人之间的信任眼神"
+
+      style: "纪实摄影+数据可视化"
+
+    image_generation_prompt: >
+      Modern integrity scenes in China: business leaders signing contracts with
+      integrity, honest shop owners treating all customers fairly, digital credit
+      system visualization, people exchanging trusting glances. Documentary style
+      photography, warm trustworthy lighting, mix of traditional values and modern
+      technology, Chinese contemporary society, authentic moments.
+
+# ===================================
+# 场景七：尾声·传承使命
+# ===================================
+  - id: "scene_07_heritage_education"
+    duration: 10
+    narration: "仁义礼智信，五常之道，是我们的文化基因，是我们的精神家园。"
+
+    storyboard:
+      shot_type: "温情叙事镜头"
+      visual_elements:
+        - "教师在课堂向学生讲述儒家文化"
+        - "祖孙三代共读经典的温馨画面"
+        - "年轻人在生活中实践五常精神"
+        - "老少同堂，薪火相传的象征"
+
+      color_palette:
+        primary: "#8B4513"  # 传承棕
+        secondary: "#FFE4B5"  # 温暖米黄
+        accent: "#CD5C5C"  # 情感红
+
+      emotional_tone: "温暖、希望、传承"
+
+    image_generation_prompt: >
+      Heartwarming scenes of cultural inheritance: teacher explaining Confucian
+      values to students in classroom, three generations reading classics together,
+      young people practicing Confucian virtues in daily life. Warm family atmosphere,
+      soft golden lighting, emotional connection between generations,
+      Chinese family values, touching documentary style.
+
+  - id: "scene_07_grand_finale"
+    duration: 10
+    narration: "让我们薪火相传，让这份千年智慧，在新时代绽放新的光芒。"
+
+    storyboard:
+      shot_type: "史诗级升格镜头"
+      visual_elements:
+        - "镜头从温馨家庭画面拉远"
+        - "展现中华大地壮丽山河"
+        - "五常之道的符号在山河间闪耀"
+        - "最终定格：'文脉薪传 生生不息'八个大字"
+        - "背景是日出，象征新的开始"
+
+      color_palette:
+        primary: "#FF8C00"  # 日出橙
+        secondary: "#4169E1"  # 天空蓝
+        accent: "#FFD700"  # 希望金
+
+      camera_movement: "大范围拉镜，从微观到宏观"
+      final_composition: "文字居中，背景虚化山河日出"
+
+    image_generation_prompt: >
+      Epic cinematic finale: camera pulling back from intimate family scene to
+      reveal magnificent Chinese landscape at sunrise. Symbols of Five Confucian
+      Constants shining over mountains and rivers. Final frame with Chinese
+      calligraphy '文脉薪传 生生不息' (Cultural Heritage Eternal).
+      Dramatic sunrise lighting, golden and blue color palette,
+      inspirational and majestic atmosphere, IMAX quality, 8K.
+
+# ===================================
+# 制作说明
+# ===================================
+production_notes:
+  总体风格: "传统水墨与现代影像融合，文化纪录片品质"
+
+  色彩方案:
+    - 传统场景: "水墨黑白+朱砂红+青花蓝"
+    - 现代场景: "暖色人文+冷色科技"
+    - 过渡效果: "水墨晕染，书法笔触转场"
+
+  音乐设计:
+    开篇: "古琴独奏，悠远宁静"
+    仁: "温暖弦乐，柔和人声哼唱"
+    义: "激昂鼓点，磅礴交响"
+    礼: "编钟礼乐，庄重典雅"
+    智: "现代电子+传统器乐融合"
+    信: "稳重低音，信任主题"
+    结尾: "主题音乐升华，民族交响乐团"
+
+  字幕设计:
+    字体: "方正清刻本悦宋/思源宋体"
+    位置: "下方居中，留足安全边距"
+    效果: "书法笔触浮现动画"
+
+  转场效果:
+    主要转场: "水墨晕染、毛笔挥洒"
+    次要转场: "交叉溶解、光效过渡"
+
+  画面比例: "16:9 (1920x1080)"
+
+  时长分配:
+    开篇: 15秒
+    五常各篇: 25秒×5 = 125秒
+    结尾: 20秒
+    总计: 160秒 (2分40秒，留10秒调整空间)

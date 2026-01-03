@@ -1,0 +1,94 @@
+project:
+  name: "萬里書院AI作文批改系統演示"
+  resolution: [1920, 1080]
+  fps: 30
+  voice: "zh-CN-XiaoxiaoNeural"
+  bitrate: "10000k"
+
+scenes:
+  - id: "01_hero"
+    url: "https://essay.wanli.ai/"
+    duration: 8
+    narration: "萬里書院，專業的AI智能作文批改系統，讓作文教學更高效。"
+    actions:
+      - type: wait
+        duration: 1
+      - type: scroll
+        y: 0
+        smooth: true
+      - type: wait
+        duration: 5
+      - type: scroll
+        y: 600
+        smooth: true
+        duration: 2
+
+  - id: "02_features"
+    url: "https://essay.wanli.ai/"
+    duration: 10
+    narration: "支援OCR智能識別手寫作文，準確率高達98%。基於先進AI模型，提供專業評分和詳細點評。"
+    actions:
+      - type: scroll
+        y: 1200
+        smooth: true
+        duration: 1
+      - type: wait
+        duration: 3
+      - type: scroll
+        y: 1800
+        smooth: true
+        duration: 2
+      - type: wait
+        duration: 2
+      - type: scroll
+        y: 2400
+        smooth: true
+        duration: 2
+
+  - id: "03_ai_teachers"
+    url: "https://essay.wanli.ai/"
+    duration: 8
+    narration: "可配置不同風格的AI導師，從內容、結構、語言、書寫等多維度全面分析。"
+    actions:
+      - type: scroll
+        y: 3000
+        smooth: true
+        duration: 1
+      - type: wait
+        duration: 4
+      - type: scroll
+        y: 3600
+        smooth: true
+        duration: 3
+
+  - id: "04_workflow"
+    url: "https://essay.wanli.ai/"
+    duration: 7
+    narration: "簡單三步驟，輕鬆開始智能批改。上傳作文，AI自動分析，獲取專業報告。"
+    actions:
+      - type: scroll
+        y: 4200
+        smooth: true
+        duration: 1
+      - type: wait
+        duration: 3
+      - type: scroll
+        y: 4800
+        smooth: true
+        duration: 3
+
+  - id: "05_cta"
+    url: "https://essay.wanli.ai/"
+    duration: 5
+    narration: "立即體驗萬里書院，讓AI助力您的作文教學。"
+    actions:
+      - type: scroll
+        y: 5400
+        smooth: true
+        duration: 1
+      - type: wait
+        duration: 2
+      - type: scroll
+        y: 6000
+        smooth: true
+        duration: 2

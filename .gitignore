@@ -1,0 +1,40 @@
+# 视频文件（太大，不适合提交到git）
+*.mp4
+*.mov
+*.avi
+
+# 音频文件
+*.mp3
+*.wav
+*.aac
+
+# 临时文件
+temp_*/
+*.txt
+merged_*.srt
+merged_*.aac
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 测试输出
+test_*.mp4
+output/

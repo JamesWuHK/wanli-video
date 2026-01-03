@@ -1,0 +1,49 @@
+project:
+  name: 萬里書院 - AI智能作文批改系統
+  resolution:
+  - 1920
+  - 1080
+  fps: 30
+  voice: zh-CN-XiaoxiaoNeural
+  bitrate: 10000k
+scenes:
+- id: opening
+  url: http://essay.wanli.ai/
+  narration: 萬里書院，專業AI作文批改系統，讓每一篇作文都得到細緻點評。
+  actions:
+  - type: scroll
+    y: 0
+  - type: wait
+    duration: 4
+- id: feature_ocr
+  narration: 手寫作文拍照上傳，OCR識別準確率高達98%。
+  actions:
+  - type: scroll
+    y: 1200
+    smooth: true
+  - type: wait
+    duration: 3.5
+- id: feature_ai
+  narration: AI導師多維度分析，從內容到書寫全面評分。
+  actions:
+  - type: scroll
+    y: 2400
+    smooth: true
+  - type: wait
+    duration: 3.5
+- id: feature_steps
+  narration: 簡單三步，上傳、批改、查看報告，輕鬆高效。
+  actions:
+  - type: scroll
+    y: 3800
+    smooth: true
+  - type: wait
+    duration: 3.5
+- id: closing
+  narration: 專業智能批改，提升作文教學效率，立即體驗萬里書院。
+  actions:
+  - type: scroll
+    y: 0
+    smooth: true
+  - type: wait
+    duration: 4

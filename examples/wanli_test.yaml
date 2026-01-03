@@ -1,0 +1,35 @@
+# 万里书院 AI 作文批改系统演示视频
+project:
+  name: "万里书院产品演示"
+  resolution: [1920, 1080]
+  fps: 30
+  voice: "zh-CN-XiaoxiaoNeural"
+  bitrate: "8000k"
+
+scenes:
+  - id: "01_homepage"
+    url: "http://essay.wanli.ai/"
+    narration: "欢迎来到万里书院，专注于AI智能作文批改，为教育机构提供专业高效的批改解决方案。"
+    actions:
+      - type: scroll
+        y: 0
+      - type: wait
+        duration: 3
+
+  - id: "02_features"
+    narration: "系统提供六大核心功能：OCR智能识别、AI智能批改、多维度分析、个性化AI导师、批量处理、数据统计。"
+    actions:
+      - type: scroll
+        y: 600
+        smooth: true
+      - type: wait
+        duration: 3
+
+  - id: "03_ending"
+    narration: "万里书院，让每一篇作文都能得到专业细致的批改。"
+    actions:
+      - type: scroll
+        y: 0
+        smooth: true
+      - type: wait
+        duration: 2
